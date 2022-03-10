@@ -1,8 +1,0 @@
-This is a  list of example hexadecimal species that are successful replicators
-
-apple   56322429e51758d7da2ea0f
-pear    dd39581eea0f
-orange  495813ead
-lemon   53333d958e1a0f
-lime    d7d9581ea0f
-        dd7de9581a0f
