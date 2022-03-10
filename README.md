@@ -1,10 +1,14 @@
 # nanopond -- genetic programming
-In this exercise we will explore the fundamentals of genetic programming by exploring a 2D world in which little programs compete for domination.
+In this project we will explore the fundamentals of genetic programming by exploring a 2D world in which little programs compete for domination.
+
+This program was based on the Nanopond 1.9 C program by Adam Ierymenko
+http://www.greythumb.org/wiki/Nanopond
+
 
 ##	Introduction: NanoPond
 Start the program by the main file NanoPond.java.
 
-The NanoPond world consists of 640x480 cells, and each cell contains a program of 512 instructions taken from a particular instruction set (section 3, next page). They form the genome of the cell. Each cell also has a certain amount of energy, and the cell dies when its energy level reaches 0. Initially, all programs contain 512 STOP instructions and they evolve over time to form more intelligent programs that try to dominate their neighbours, replicate themselves and take over the world.
+The NanoPond world consists of 640x480 cells, and each cell contains a program of 512 instructions taken from a particular instruction set. They form the genome of the cell. Each cell also has a certain amount of energy, and the cell dies when its energy level reaches 0. Initially, all programs contain 512 STOP instructions and they evolve over time to form more intelligent programs that try to dominate their neighbours, replicate themselves and take over the world.
 
 All self-replicating programs are shown on the graphical interface, each pixel representing one cell. There is a zoom window which allows you to look into more detail at a certain cell and its neighbours. If two cells are painted in the same colour, they originate from a common ancestor. By clicking on a cell, a print-out of its genome is shown.
 
